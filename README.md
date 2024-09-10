@@ -1,7 +1,7 @@
 # CraftedTreasures  Application
 # Backend Part Made Using Spring Boot 
 
-## Frontend Part using Angulart : https://github.com/bhaskarvora/CraftedTreasures-Frontend-Part-
+## Frontend Part using Angular : https://github.com/bhaskarvora/CraftedTreasures-Frontend-Part-
 
 ## Overview
 
