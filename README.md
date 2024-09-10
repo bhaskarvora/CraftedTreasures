@@ -1,6 +1,8 @@
 # CraftedTreasures  Application
 # Backend Part Made Using Spring Boot 
 
+## Frontend Part using Angulart : https://github.com/bhaskarvora/CraftedTreasures-Frontend-Part-
+
 ## Overview
 
 CraftedTreasures is an innovative project designed to showcase and promote handcrafted treasures from artisans around the world. The project aims to create a vibrant online marketplace that connects skilled crafters with enthusiasts who appreciate unique, artisanal products.
