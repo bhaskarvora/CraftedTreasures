@@ -150,7 +150,7 @@ Razorpay Payment Integration
 
 ![Payment Integration Crafted](https://github.com/user-attachments/assets/90f95d99-ff8a-4a59-8268-8719e055e4dd)
 
-Payment Integration Crafted 
+Payment Integration
 
 
 
