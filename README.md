@@ -145,9 +145,11 @@ Order Information Filter Delivered
 Order Confirmation Page 
 
 ![Razorpay Payment Integration](https://github.com/user-attachments/assets/179d8775-48b6-400f-ad9a-6b568c2281b0)
+
 Razorpay Payment Integration
 
 ![Payment Integration Crafted](https://github.com/user-attachments/assets/90f95d99-ff8a-4a59-8268-8719e055e4dd)
+
 Payment Integration Crafted 
 
 
