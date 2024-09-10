@@ -52,63 +52,58 @@ This is a comprehensive application built using Spring Boot. It includes feature
 git clone https://github.com/bhaskarvora/CraftedTreasures.git
 
 
-Configuring Application Properties
+## Configuring Application Properties
 Edit the src/main/resources/application.properties file to configure the following:
 Server Port
 Database Connection
 JPA Settings
-Example configuration:
-properties
-
-server.port=9091
-spring.datasource.url=jdbc:mysql://localhost:3306/db
-spring.datasource.username=root
-spring.datasource.password=root@123
-spring.datasource.platform=mysql
-spring.jpa.hibernate.ddl-auto=create
-spring.jpa.show-sql=true
-spring.jpa.properties.hibernate.format_sql=true
+## Example configuration:
 
 
-Here make sure
-spring.jpa.hibernate.ddl-auto=create
-For the first time only use create after that change it to update 
+- server.port=9091
+- spring.datasource.url=jdbc:mysql://localhost:3306/db
+- spring.datasource.username=root
+- spring.datasource.password=root@123
+- spring.datasource.platform=mysql
+- spring.jpa.hibernate.ddl-auto=create (change to update after initial setup)
+- spring.jpa.show-sql=true
+- spring.jpa.properties.hibernate.format_sql=true
 
 
-Building and Running the Application
+
+## Building and Running the Application
 Build the Project
 
-mvn clean install
+- mvn clean install
+  
 Run the Application
 
-mvn spring-boot:run
+- mvn spring-boot:run
 
 
-Project Structure
-com.bhaskar: Main package containing application classes.
-util: Contains utility classes like JwtUtil for handling JWT operations.
-service: Contains service classes for managing business logic.
-dao: Contains Data Access Objects for database operations.
-src/main/resources/application.properties: Configuration file for the application.
-pom.xml: Maven build configuration file.
+## Project Structure
+- com.bhaskar: Main package containing application classes.
+- util: Contains utility classes like JwtUtil for handling JWT operations.
+- service: Contains service classes for managing business logic.
+- dao: Contains Data Access Objects for database operations.
+- src/main/resources/application.properties: Configuration file for the application.
+- pom.xml: Maven build configuration file.
 
-Dependencies
-Spring Boot: Provides the core framework for the application.
-Spring Security: For handling authentication and authorization.
-Spring Data JPA: For database interactions.
-MySQL: Database for storing application data.
-Razorpay: Payment gateway integration.
-JJWT: Library for handling JSON Web Tokens.
+## Dependencies
+- Spring Boot: Provides the core framework for the application.
+- Spring Security: For handling authentication and authorization.
+- Spring Data JPA: For database interactions.
+- MySQL: Database for storing application data.
+- Razorpay: Payment gateway integration.
+- JJWT: Library for handling JSON Web Tokens.
 
-
-
-Contributing
-Fork the repository.
-Create a new branch (git checkout -b feature-branch).
-Make your changes.
-Commit your changes (git commit -am 'Add new feature').
-Push to the branch (git push origin feature-branch).
-Create a new Pull Request.
+## Contributing
+- Fork the repository.
+- Create a new branch (git checkout -b feature-branch).
+- Make your changes.
+- Commit your changes (git commit -am 'Add new feature').
+- Push to the branch (git push origin feature-branch).
+- Create a new Pull Request.
 
 
 
